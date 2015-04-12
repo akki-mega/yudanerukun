@@ -30,6 +30,10 @@ class ViewController: UIViewController {
         number--
         label.text=String(number)
     }
+    @IBAction func clear(){
+        number=0
+        label.text=String(number)
+    }
 
 }
 
